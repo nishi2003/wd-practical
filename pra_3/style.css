@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@500&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(153, 115, 139);
+}
+.button {
+    padding: 20px;
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 2rem;
+    width: 66px;
+}
+.row {
+    margin: 5px 0px;
+}
+.row > input {
+    margin: 0;
+    width: 230px;
+    padding: 10px 30px ;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+footer {
+    width: max-content;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 75px auto 20px;
+}
+footer:hover {
+    color: black;
+    cursor: pointer;
+}

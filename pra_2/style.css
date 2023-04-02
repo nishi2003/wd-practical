@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+  }
+  .resume{
+    display: flex;
+  }
+  .right{
+    background-color: #F5EBEB;
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+  }
+  .left{
+    background-color: #867070;
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+  }
+  
